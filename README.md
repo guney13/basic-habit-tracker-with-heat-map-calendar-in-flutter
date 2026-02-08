@@ -1,16 +1,60 @@
-# habit_tracker
+# Habit Tracker
 
-A new Flutter project.
+A flutter application for habit tracking with a clean UI, dark mode support, and visual progress tracking through heatmaps.
+
+## Features
+
+- **Offline Database**: Cross-platform offline storage using ISAR for habits and completion history
+- **Navigation**: Navigator for routing to settings page
+- **State Management**: Provider pattern for managing habit database, theme preferences, and customizable widget layout
+- **Visual Progress**: Heatmap to visualize habit completion over time
+- **Dark Mode**: Toggle between light and dark themes
+- **Customizable Layout**: Customizable widget placement for personalized user experience
+
+
+## Tech Stack
+
+- **Framework**: Flutter
+- **Database**: ISAR
+- **State Management**: Provider
+
+
+## Project Structure
+
+```
+lib/
+├── components/      # Reusable UI components
+├── database/        # Database configuration and operations
+├── models/          # Data models and schemas
+├── pages/           # Application screens
+├── theme/           # Theme configuration and styling
+└── utils/           # Utility functions and helpers
+```
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter SDK (latest stable version)
+- Dart SDK
+- An IDE (VS Code, Android Studio, or IntelliJ)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   flutter pub get
+   ```
+3. Run the app:
+   ```bash
+   flutter run
+   ```
+
+## Usage of the App
+
+- **Add Habits**: Tap the add button to create new habits to track
+- **Complete Habits**: Check off habits as you complete them daily
+- **Edit/Delete Habit**: Slide any habit to left to edit its name or delete it
+- **View Progress**: Monitor your consistency through the heatmap visualization
+- **Customize**: Adjust theme and layout preferences in settings page

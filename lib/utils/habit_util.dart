@@ -12,7 +12,6 @@ bool isHabitCompletedToday(List<DateTime> completedDays) {
   );
 }
 
-
 // prepare heatmap dataset
 Map<DateTime, int> prepHeatDataset(List<Habit> habits) {
   Map<DateTime, int> dataset = {};
