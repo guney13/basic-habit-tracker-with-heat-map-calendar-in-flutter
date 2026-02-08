@@ -7,7 +7,7 @@ A flutter application for habit tracking with a clean UI, dark mode support, and
 - **Offline Database**: Cross-platform offline storage using ISAR for habits and completion history
 - **Navigation**: Navigator for routing to settings page
 - **State Management**: Provider pattern for managing habit database, theme preferences, and customizable widget layout
-- **Visual Progress**: Heatmap to visualize habit completion over time
+- **Visual Progress**: Heatmap to visualize habit completion day by day
 - **Dark Mode**: Toggle between light and dark themes
 - **Customizable Layout**: Customizable widget placement for personalized user experience
 
