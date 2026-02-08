@@ -18,7 +18,7 @@ Map<DateTime, int> prepHeatDataset(List<Habit> habits) {
   
   for (var habit in habits) {
     for (var date in habit.completedDays) {
-      // normalization to avoid time mismatch
+      // normalization(only comparing year,month,day info) to avoid time mismatch
       final normalizedDate = DateTime(date.year, date.month, date.day);
 
       if (dataset.containsKey(normalizedDate)) {
