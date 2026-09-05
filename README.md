@@ -1,6 +1,6 @@
 # Habit Tracker
 
-A flutter application for habit tracking with a clean UI, dark mode support, and visual progress tracking through heatmaps.
+A flutter application for habit tracking with a clean UI, dark mode support, and visual progress tracking through heatmaps
 
 ## Features
 
